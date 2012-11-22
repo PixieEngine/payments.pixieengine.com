@@ -19,6 +19,7 @@ end
 
 gem 'jquery-rails'
 gem 'pg'
+gem 'rest-client'
 gem 'stripe'
 
 # To use ActiveModel has_secure_password
