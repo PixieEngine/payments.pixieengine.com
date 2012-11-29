@@ -3,6 +3,6 @@ Payments::Application.config.middleware.use Rack::Cors do
     origins 'redicegame.com'
     resource "*",
       :headers => ['Origin', 'Accept', 'Content-Type'],
-      :methods => [:get, :post]
+      :methods => [:get, :post, :options]
   end
 end
