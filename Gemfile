@@ -20,6 +20,7 @@ end
 gem 'jquery-rails'
 gem 'pg'
 gem 'rest-client'
+gem 'rack-cors', :require => 'rack/cors'
 gem 'stripe'
 
 # To use ActiveModel has_secure_password
