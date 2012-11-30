@@ -2,5 +2,8 @@ Dear #{@person.name},
 
 Thank you for your purchase of #{@product}. We hope you'll enjoy it.
 
+- if @product.downcase.include? "preorder"
+  You will receive more information about downloading your preorder closer to the release date.
+
 Yours,
 PixieEngine
