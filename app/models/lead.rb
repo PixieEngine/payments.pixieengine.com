@@ -1,3 +1,3 @@
 class Lead < ActiveRecord::Base
-  attr_accessible :email, :product
+  attr_accessible :email, :name, :product
 end
