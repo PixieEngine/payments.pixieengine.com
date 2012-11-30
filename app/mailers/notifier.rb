@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default from: "daniel@pixieengine.com"
+  default from: "PixieEngine <daniel@pixieengine.com>"
 
   def purchase_notification(person, product)
     @person = person
