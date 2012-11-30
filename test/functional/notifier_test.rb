@@ -9,5 +9,7 @@ class NotifierTest < ActionMailer::TestCase
     assert !ActionMailer::Base.deliveries.empty?
 
     assert_equal [person.email], email.to
+
+    assert email.body.to_s.length > 25
   end
 end
