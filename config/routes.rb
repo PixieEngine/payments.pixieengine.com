@@ -2,8 +2,6 @@ Payments::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  get "leads" => "leads#create"
-
   resources :leads, :purchases
 
   # Sample of regular route:
